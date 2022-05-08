@@ -9,11 +9,6 @@ body{
   background-color: #F4F4F4;
   color: #926239;
 }
-.welcome-section-heading,.welcome-section-link{
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
 .welcome-section{
   box-sizing:border-box;
   height: 100vh;
@@ -23,6 +18,11 @@ body{
   background-position: right bottom;
   text-align: center;
   padding-top: 40vh;
+}
+.welcome-section-heading,.welcome-section-link{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .welcome-section-heading{
   font-size: 50px;
@@ -49,6 +49,7 @@ body{
 .main-content-section,.some-article-section{
   background-color: #926239;
   color: #F4F4F4;
+  
 }
 
 .left-article,.center-article,.right-article{
